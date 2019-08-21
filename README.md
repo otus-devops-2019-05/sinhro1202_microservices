@@ -1,4 +1,7 @@
 # sinhro1202_microservices
+# Выполнено ДЗ Docker-3
+
+ - [*] Основное ДЗ
 
 # Выполнено ДЗ Docker-2
 
