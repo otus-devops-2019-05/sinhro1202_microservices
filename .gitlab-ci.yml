@@ -10,6 +10,8 @@ stages:
 
   - review
 
+  - production
+
 variables:
  DATABASE_URL: 'mongodb://mongo/user_posts'
 
@@ -55,3 +57,21 @@ deploy_dev_job:
   environment:
     name: dev
     url: http://35.207.157.64
+
+staging:
+  stage: stage
+  when: manual
+  script:
+   - echo 'Deploy'
+  environment:
+    name: stage
+    url: https://beta.example.com
+
+production:
+  stage: production
+  when: manual
+  script:
+   - echo 'Deploy'
+  environment:
+    name: production
+    url: https://35.207.157.64
