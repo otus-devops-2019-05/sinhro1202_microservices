@@ -8,6 +8,8 @@ stages:
 
   - deploy
 
+  - review
+
 variables:
  DATABASE_URL: 'mongodb://mongo/user_posts'
 
@@ -47,7 +49,7 @@ test_integration_job:
 
 deploy_dev_job:
 
-  stage: test
+  stage: review
   script:
     - echo 'Deploy'
   environment:
