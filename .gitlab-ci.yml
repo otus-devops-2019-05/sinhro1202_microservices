@@ -47,7 +47,7 @@ test_integration_job:
 
 deploy_dev_job:
 
-  stage: review
+  stage: test
   script:
     - echo 'Deploy'
   environment:
