@@ -48,11 +48,8 @@ test_integration_job:
 deploy_dev_job:
 
   stage: review
-
   script:
-
     - echo 'Deploy'
-
   environment:
     name: dev
     url: http://35.207.157.64
