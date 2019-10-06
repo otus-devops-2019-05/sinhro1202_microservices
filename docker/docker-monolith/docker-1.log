@@ -1,0 +1,7 @@
+REPOSITORY             TAG                 IMAGE ID            CREATED             SIZE
+alex/ubuntu-tmp-file   latest              fe252cf4d08d        53 seconds ago      120MB
+ubuntu                 16.04               5e13f8dd4c1a        3 weeks ago         120MB
+hello-world            latest              fce289e99eb9        7 months ago        1.84kB
+
+
+##  Разница между образом и контейнером заключается в том, что сам по себе образ запустить невозможно, контейнер создается на основе образа и имеет слой на запись.
